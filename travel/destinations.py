@@ -7,6 +7,8 @@ from werkzeug.utils import secure_filename
 #additional import:
 from flask_login import login_required, current_user
 
+# HERE IS A NEW COMMENT
+
 bp = Blueprint('destination', __name__, url_prefix='/destinations')
 
 @bp.route('/<id>')
