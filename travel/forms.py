@@ -5,6 +5,8 @@ from flask_wtf.file import FileRequired, FileField, FileAllowed
 
 ALLOWED_FILE = {'PNG','JPG','png','jpg'}
 
+#im just going to make a new comment for testing
+
 #Create new destination
 class DestinationForm(FlaskForm):
   name = StringField('Country', validators=[InputRequired()])
