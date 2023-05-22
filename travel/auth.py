@@ -6,6 +6,8 @@ from werkzeug.security import generate_password_hash,check_password_hash
 from .models import User
 from . import db
 
+#im just going to make a new comment for testing
+
 #create a blueprint
 bp = Blueprint('auth', __name__ )
 
