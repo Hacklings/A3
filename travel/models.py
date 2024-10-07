@@ -28,7 +28,7 @@ class Destination(db.Model):
 	# relation to call destination.comments and comment.destination
     comments = db.relationship('Comment', backref='destination')
 
-	# string print method
+	
     def __repr__(self):
         return f"Name: {self.name}"
 
