@@ -42,5 +42,5 @@ class Comment(db.Model):
     destination_id = db.Column(db.Integer, db.ForeignKey('destinations.id'))
 
     # string print method
-    def __repr__(self):
-        return f"Comment: {self.text}"
+  def __repr__(self):
+        return f"Comment: {self.text} on {self.created_at.strftime('%Y-%m-%d %H:%M')}"
